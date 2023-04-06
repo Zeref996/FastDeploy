@@ -6,7 +6,6 @@ if [ ! "$1" = "$CONFIG_PATH" ]; then
     CONFIG_PATH="$1"
   fi
 fi
-
 ## PaddleClas
 #./benchmark_ppcls --model PPLCNet_x1_0_infer --image ILSVRC2012_val_00000010.jpeg --config_path $CONFIG_PATH
 #./benchmark_ppcls --model PPLCNetV2_base_infer --image ILSVRC2012_val_00000010.jpeg --config_path $CONFIG_PATH
